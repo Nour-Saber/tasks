@@ -1,0 +1,33 @@
+[
+    {
+        
+        "title": "cheese",
+        "price":1000,
+        "taxes":100,
+        "status": "valid"
+    },
+    {
+       "title": "butter",
+        "price":1000,
+        "taxes":130,
+        "status": "valid"
+    },
+    {
+        "title": "milk",
+        "price":1010,
+        "taxes":50,
+        "status": "invalid"
+    },
+    {
+        "title": "chocolate",
+        "price":1080,
+        "taxes":10,
+        "status": "valid"
+    },
+    {
+        "title": "cake",
+        "price":1090,
+        "taxes":100,
+        "status": "invalid"
+    }
+]
