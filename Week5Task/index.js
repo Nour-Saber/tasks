@@ -14,7 +14,7 @@ app.get("/products/:name", async (req, res) => {
   const name = req.params.name;
   const products = await getDataFromFile();
   const prods = products.find((prod) => prod.title === name);
-  if (!prods) return res.send("NO students found");
+  if (!prods) return res.send("NO products found");
   res.send(prods);
 });
 
